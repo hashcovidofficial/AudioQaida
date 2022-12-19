@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylechp1.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/chp1header.jpg" alt="header">
+    </header>
+    <main>
+        <div class="rtl">
+
+            <div class="as">
+                <p>
+                  <input type="button" class="bt" onclick="playAudio('file:///chapter 1 audio/alif.mp3')" value="Play Audio">
+                </p>
+              </div>
+              <div class="as">
+                <p>
+                  <input type="button" class="bt" onclick="playAudio('file:///audio/audiofile.mp3')" value="Play Audio">
+                </p>
+              </div>
+              <div class="as">
+                <p>
+                  <input type="button" class="bt" onclick="playAudio('file:///audio/audiofile.mp3')" value="Play Audio">
+                </p>
+              </div>
+
+
+            <div class="as">a<p><input type="button" class="bt" onclick="alpha('ا')" value="ا"></p></div>
+            <div class="as">b<p><input type="button" class="bt" onclick="alpha('ب')" value="ب"></p></div>
+            <div class="as">t<p><input type="button" class="bt" onclick="alpha('ت')" value="ت"></p></div>
+            <div class="as">'t<p><input type="button" class="bt" onclick="alpha('ث')" value="ث"></p></div>
+            <div class="as">j<p><input type="button" class="bt" onclick="alpha('ج')" value="ج"></p></div>
+            <div class="as">Ḥ<p><input type="button" class="bt" onclick="alpha('ح')" value="ح"></p></div>
+            <div class="as">'H<p><input type="button" class="bt" onclick="alpha('خ')" value="خ"></p></div>
+            <div class="as">d<p><input type="button" class="bt" onclick="alpha('د')" value="د"></p></div>
+            <div class="as">'d<p><input type="button" class="bt" onclick="alpha('ذ')" value="ذ"></p></div>
+            <div class="as">r<p><input type="button" class="bt" onclick="alpha('ر')" value="ر"></p></div>
+            <div class="as">z<p><input type="button" class="bt" onclick="alpha('ز')" value="ز"></p></div>
+            <div class="as">s<p><input type="button" class="bt" onclick="alpha('س')" value="س"></p></div>
+            <div class="as">'s<p><input type="button" class="bt" onclick="alpha('ش')" value="ش"></p></div>
+            <div class="esp mobnul"></div>
+            <div class="as">S<p><input type="button" class="bt" onclick="alpha('ص')" value="ص"></p></div>
+            <div class="as">D<p><input type="button" class="bt" onclick="alpha('ض')" value="ض"></p></div>
+            <div class="as">T<p><input type="button" class="bt" onclick="alpha('ط')" value="ط"></p></div>
+            <div class="as">Z<p><input type="button" class="bt" onclick="alpha('ظ')" value="ظ"></p></div>
+            <div class="as">g<p><input type="button" class="bt" onclick="alpha('ع')" value="ع"></p></div>
+            <div class="as">'g<p><input type="button" class="bt" onclick="alpha('غ')" value="غ"></p></div>
+            <div class="as">f<p><input type="button" class="bt" onclick="alpha('ف')" value="ف"></p></div>
+            <div class="as">q<p><input type="button" class="bt" onclick="alpha('ق')" value="ق"></p></div>
+            <div class="as">k<p><input type="button" class="bt" onclick="alpha('ك')" value="ك"></p></div>
+            <div class="as">l<p><input type="button" class="bt" onclick="alpha('ل')" value="ل"></p></div>
+            <div class="as">m<p><input type="button" class="bt" onclick="alpha('م')" value="م"></p></div>
+            <div class="as">n<p><input type="button" class="bt" onclick="alpha('ن')" value="ن"></p></div>
+            <div class="as">h<p><input type="button" class="bt" onclick="alpha('ه')" value="ه"></p></div>
+            <div class="as">w<p><input type="button" class="bt" onclick="alpha('و')" value="و"></p></div>
+            <div class="as">y<p><input type="button" class="bt" onclick="alpha('ي')" value="ي"></p></div>
+            <div class="as">-<p><input type="button" class="bt" onclick="alpha('ء')" value="ء"></p></div>
+            </div>
+            <script>
+                function playAudio(audioFile) {
+                  // Create an audio element
+                  var audio = new Audio(audioFile);
+                  // Play the audio
+                  audio.play();
+                }
+              </script>
+    </main>
+  </body>
+</html>

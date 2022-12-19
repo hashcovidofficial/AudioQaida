@@ -1,0 +1,18 @@
+<div id="arabic-letters" dir="rtl">
+    <button class="letter" data-audio="chapter 1 audio/alif.mp3">أ</button>
+    <button class="letter" data-audio="chapter 1 audio/baa.mp3">ب</button>
+    <button class="letter" data-audio="taa.mp3">ت</button>
+    <!-- Add buttons for the rest of the Arabic letters here -->
+  </div>
+  
+  <script>
+    const letters = document.querySelectorAll('.letter');
+    letters.forEach(letter => {
+      letter.addEventListener('click', event => {
+        const audioFile = event.target.getAttribute('data-audio');
+        const audio = new Audio(audioFile);
+        audio.play();
+      });
+    });
+  </script>
+  

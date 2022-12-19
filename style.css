@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  body {
+    font-family: 'Open Sans', sans-serif; /* Set the default font */
+    color: #333333; /* Set the default text color */
+  }
+  
+  /* Set colors for different elements */
+  h1, h2, h3 {
+    color: #006699; /* Blue for headings */
+  }
+  
+  a {
+    color: #009900; /* Green for links */
+  }
+  
+  .highlight {
+    background-color: #ffeecc; /* Soft yellow for highlights */
+  }
+  
+  /* Set font sizes for different elements */
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+
+  
